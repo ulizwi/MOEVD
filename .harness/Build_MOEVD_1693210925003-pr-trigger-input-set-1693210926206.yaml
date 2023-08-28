@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_MOEVD_1693210925003-pr-trigger-input-set
+  identifier: Build_MOEVD_1693210925003prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_MOEVD_1693210925003
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
