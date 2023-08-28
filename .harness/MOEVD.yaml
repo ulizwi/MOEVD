@@ -1,0 +1,14 @@
+inputSet:
+  pipeline:
+    identifier: Build_MOEVD_1693210925003
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
+  name: MOEVD
+  identifier: MOEVD
+  orgIdentifier: default
+  projectIdentifier: default_project
